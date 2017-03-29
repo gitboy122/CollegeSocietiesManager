@@ -1,0 +1,89 @@
+<html>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+<link rel="stylesheet" href=".\css\d.css">
+<link rel="stylesheet" href=".\css\bootstrap.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+<title>Get updated for events</title>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+
+<div class="navbar-brand "
+<a href="#">Society Management System</a> 
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">Home</a></li>
+<li><a href="#">Contact Us</a></li>
+<li class="dropdown">
+<a class="dropdown-toggle"  data-toggle="dropdown" href="#">Settings<b class="caret"></b></a>
+            <ul class=" dropdown-menu">
+			<li><a href="#">Edit Socities</a></li>
+            <li><a href="#">Mass Mail</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Edit Events</a></li>
+			<li><a href="#">Logout</a></li>
+
+        </ul>
+</li>
+<li><a href="events.html">Add Event</a></li>
+<li><a href="#">About</a></li>
+</ul>
+</nav>
+<div class = "row">
+<form class="form-horizontal">
+<fieldset>
+
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Society Logo</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Society Name</label>  
+  <div class="col-md-6">
+  <input id="textinput" name="textinput" type="text" placeholder="should be Unique" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Poster</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Description</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea">About what your society is ......</textarea>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+<div class = "container col-md-4 col-md-offset-5">
+<a href="#" class="btn btn-block btn-primary btn-success"> Save <span class="glyphicon glyphicon-heart"></span></a>
+</div>
+</fieldset>
+</form>
+</div>
+
+
+<nav class="navbar navbar-fixed-bottom navbar-inverse">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="#">@copyright</a></li>
+
+</nav>
+
+
+</html>

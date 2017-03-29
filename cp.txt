@@ -1,0 +1,31 @@
+<html>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
+<link rel="stylesheet" href=".\css\d.css">
+<link rel="stylesheet" href=".\css\bootstrap.css">
+<title>Get updated for events</title>
+
+<nav class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar-brand "
+<a href="#">Society Management System</a> 
+</div>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#">Home</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Edit Society</a></li>
+<li><a href="events.html">Add Event</a></li>
+<li><a href="#">About</a></li>
+
+</ul>
+</nav>
+
+
+
+
+<nav class="navbar navbar-fixed-bottom navbar-inverse">
+<ul class="nav navbar-nav navbar-left">
+<li><a href="#">@copyright</a></li>
+
+</nav>
+
+
+</html>
